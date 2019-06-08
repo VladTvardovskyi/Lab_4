@@ -30,15 +30,4 @@ public class Fish extends ShopAnimal {
     public String toString() {
         return "Fish [fishForm=" + fishForm + "]";
     }
-    
-    public String getHeaders() {
-        return super.getHeaders() + "fishForm";
-    }
-    
-    public String toCSV() {
-        return super.toCSV() + fishForm;
-    }
-    
-    
-
 }
