@@ -30,13 +30,4 @@ public class Mamals extends ShopAnimal {
     public  String toString() {
         return "Mamals ["+super.toString()+",wool=" + wool + "]";
     }
-
-    public String getHeaders() {
-        return super.getHeaders() + "," + "wool";
-    }
-    
-    public String toCSV() {
-        return super.toCSV() + wool;
-    }
-
 }
