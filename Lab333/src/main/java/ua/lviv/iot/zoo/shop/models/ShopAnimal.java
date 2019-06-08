@@ -108,12 +108,4 @@ public class ShopAnimal {
         return "AnimalShop [name=" + name + ", price="
                 + price + ", colour=" + colour + ", age=" + age + "]";
     }
-    
-    public String getHeaders() {
-        return "name, price, type, colour, age, weight, sex, food";
-    }
-
-    public String toCSV() {
-        return name + "," + price + "," + type +"," + colour +"," + age + "," + weight + "," + sex +"," + food;
-    }
 }
