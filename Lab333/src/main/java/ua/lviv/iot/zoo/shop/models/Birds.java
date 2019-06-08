@@ -27,13 +27,4 @@ public class Birds extends ShopAnimal {
     public String toString() {
         return "Birds [birdsVoice=" + birdsVoice + "]";
     }
-    
-    public String getHeaders() {
-        return super.getHeaders() + "birdsVoice";
-    }
-    
-    public String toCSV() {
-        return super.toCSV() + birdsVoice;
-    }
-
-}
+   
